@@ -1,0 +1,54 @@
+body {
+    background-color: #a3e4ea;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+input, button, textarea {
+    margin: 10px 0;
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 16px;
+    resize: both;
+}
+
+button {
+    background-color: #4287f5;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2f5cb4;
+}
+
+#selection, #login, #registration {
+    display: block;
+}
+
+#login, #registration {
+    display: none;
+}
+
+#message {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #f00;
+}
